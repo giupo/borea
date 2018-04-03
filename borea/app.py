@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
+
 import logging
 import coloredlogs
 import json
@@ -69,7 +71,8 @@ def make_app():
 def main():
     coloredlogs.install(level=logging.DEBUG)
     app = make_app()
-    app.listen(8888)
+    port = int(os.environ.get("PORT", 8888))
+    app.listen(port)
     tornado.ioloop.IOLoop.current().start()
 
 

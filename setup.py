@@ -32,9 +32,7 @@ test_requirements = [
     'pytest-cov',
     'pytest-bdd',
     'pytest-xdist',
-    'pytest-watch',
-    'tox',
-    'detox'
+    'pytest-watch'
 ]
 
 setup(
@@ -56,8 +54,6 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
     ],
