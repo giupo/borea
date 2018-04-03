@@ -1,1 +1,1 @@
-web: borea
+web: python borea/app.py
