@@ -1,0 +1,21 @@
+[
+  "tests/features/test_zero.py::test_zero[0.0-1.0]",
+  "tests/features/test_zero.py::test_zero[1.0-1.0]",
+  "tests/features/test_zero.py::test_zero[2.0-2.0]",
+  "tests/features/test_zero.py::test_zero[3.0-6.0]",
+  "tests/features/test_zero.py::test_zero[4.0-24.0]",
+  "tests/features/test_zero.py::test_zero[5.0-120.0]",
+  "tests/features/test_zero.py::test_zero[6.0-720.0]",
+  "tests/features/test_zero.py::test_zero[7.0-5040.0]",
+  "tests/features/test_zero.py::test_zero[8.0-40320.0]",
+  "tests/features/test_zero.py::test_zero[9.0-362880.0]",
+  "tests/features/test_zero.py::test_zero[10.0-3628800.0]",
+  "tests/features/test_zero.py::test_zero[11.0-39916800.0]",
+  "tests/features/test_zero.py::test_zero[12.0-479001600.0]",
+  "tests/features/test_zero.py::test_zero[13.0-6227020800.0]",
+  "tests/features/test_zero.py::test_zero[14.0-87178291200.0]",
+  "tests/features/test_zero.py::test_zero[15.0-1307674368000.0]",
+  "tests/unit/test_borea.py::TestBorea::test_add_user",
+  "tests/unit/test_borea.py::TestBorea::test_list_users",
+  "tests/unit/test_borea.py::TestBorea::test_remove_users"
+]
