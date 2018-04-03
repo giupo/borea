@@ -59,9 +59,9 @@ class RemoveHandler(tornado.web.RequestHandler):
 
 def make_app():
     app = tornado.web.Application([
-        (r"/(.*)/remove", RemoveHandler),
-        (r"/(.*)", MainHandler),
-        (r"/", MainHandler),
+        (r"/borea/(\w+)/remove", RemoveHandler),
+        (r"/borea/(\w+)", MainHandler),
+        (r"/borea", MainHandler),
     ])
 
     app.users = Users()
@@ -71,7 +71,7 @@ def make_app():
 def main():
     coloredlogs.install(level=logging.DEBUG)
     app = make_app()
-    port = int(os.environ.get("PORT", 8888))
+    port = int(os.environ.get("PORT", 5000))
     app.listen(port)
     tornado.ioloop.IOLoop.current().start()
 
